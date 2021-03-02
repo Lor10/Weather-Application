@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Weather App</title>
+        <script src="https://kit.fontawesome.com/0b2a9077b2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="resources/style.css">
+        <script type="module" src="resources/app.js" defer></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>
+
+    </head>
+
+    <body>
+        <div class="location">
+            <h1 class="location-timezone">Location</h1>            
+
+            <div class="weather">
+                <div class="weather-icon"></div>
+                <div class="weather-description"> - </div>
+                <div class="wind"> - </div>
+                <div class="wind-speed"> - </div>
+                <div class="humidity"> - </div>
+            </div>
+        </div>
+
+        <div class="temperature">
+            <div class="degree-section">
+                <h2 class="temperature-degree">0</h2>
+                <span>C</span>
+            </div>
+            <div class="buttons">
+                <div class="button" id="metric"> Metric </div>
+                <div class="button" id="imperial"> Imperial </div>
+            </div>
+        </div>
+    </body>
+</html>
